@@ -70,7 +70,7 @@ const Card = [
     name: "cat",
     image:
     "https://st2.depositphotos.com/1803332/9245/v/950/depositphotos_92457980-stock-illustration-playing-cards-back.jpg" 
-   },
+   }
 ];
 
 export default Card;

@@ -1,4 +1,3 @@
-
 import React from "react";
 
 function Cards(props) {
@@ -6,7 +5,7 @@ function Cards(props) {
   const info = props.info;
 
   return (
-    <div className="cards">
+    <div className="Cards">
       <img src={info.image} alt="" />
     </div>
   );
