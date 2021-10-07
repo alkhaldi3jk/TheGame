@@ -1,21 +1,28 @@
-  /* *{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,96,1) 35%, rgba(0,212,255,1) 100%);
-  } */
+* {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 121, 96, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
 .header {
   text-align: center;
   font-size: 40px;
 }
 
-
-
 .flippy-container {
   display: flex;
-  width: 50%;
-  height: 50%;
+  width: fit-content;
+  height: fit-content;
+  padding-left: 20px;
 }
 
-.sideA{
+.sideA {
+  align-content: center;
+  justify-content: center;
+  text-align: center;
   display: flex;
   width: 50%;
   height: 50%;
@@ -23,25 +30,31 @@
   align-content: center;
   flex-wrap: wrap;
 }
-.sideA img{
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  width: 100px;
-  height: 100px;
-}
+
 .flippy {
   display: flex;
   width: 50%;
   height: 50%;
 }
-
-.sideB{
-  
+.sideB {
+  align-content: center;
+  justify-content: center;
+  text-align: center;
   display: flex;
   width: 50%;
   height: 50%;
-  justify-content: center;
-  align-content: center;
+
   flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+.Cards image {
+  align-content: center;
+  justify-content: center;
+}
+
+.sideB img, .sideA img{
+
+  width: 100px;
+  height: 200px;
 }
