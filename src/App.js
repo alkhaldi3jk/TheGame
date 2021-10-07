@@ -1,24 +1,16 @@
 import "./App.css";
-import Flippy, { FrontSide, BackSide } from "react-flippy";
-import SideA from './componants/SideA'
-import SideB from './componants/SideB'
+import CardsList from "./componants/CardsList";
+
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <div className="header">
-        <h5>Header</h5>
+        <h5>Check Your Memory!!!</h5>
       </div>
 
       <div className="filppy">
-        <Flippy>
-          <FrontSide>
-            <SideA />
-          </FrontSide>
-          <BackSide>
-            <SideB />
-          </BackSide>
-        </Flippy>
+      <CardsList />
       </div>
     </div>
   );
